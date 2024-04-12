@@ -16,4 +16,4 @@ jobs:
                     java Main.java
                     node Main.js
                     go run Main.go
-                    g++ Main.cpp -o Main
+                    g++ Main.c++ -o Main
