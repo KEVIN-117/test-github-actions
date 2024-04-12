@@ -2,7 +2,7 @@ name: "Hola_mundo"
 
 on:
     push:
-        branches: ["aprendiendo-github-actions"]
+        branches: ["main"]
 jobs:
     build:
         runs-on: ubuntu-latest
