@@ -1,0 +1,19 @@
+name: "Hola_mundo"
+
+on:
+    push:
+        branches: ["aprendiendo-github-actions"]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Checkout"
+              uses: actions/checkout@v2
+            - name: Run a Program
+              run: |
+                    echo "Hola Mundo"
+                    python main.py
+                    java Main.java
+                    node Main.js
+                    go run Main.go
+                    g++ Main.cpp -o Main
